@@ -1,0 +1,14 @@
+<svg width="117" height="102" viewBox="0 0 117 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M117 101H0" stroke="#CBA349" stroke-width="2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M88 51L59 101L30 51H88Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M88 51L59 101L30 51H88V51Z" stroke="#CBA349" stroke-width="2" stroke-linejoin="round"/>
+<path d="M59 46V101" stroke="#CBA349" stroke-width="2"/>
+<path d="M58.5 68C77.0015 68 92 53.0015 92 34.5C92 15.9985 77.0015 1 58.5 1C39.9985 1 25 15.9985 25 34.5C25 53.0015 39.9985 68 58.5 68Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M58.5 68C77.0015 68 92 53.0015 92 34.5C92 15.9985 77.0015 1 58.5 1C39.9985 1 25 15.9985 25 34.5C25 53.0015 39.9985 68 58.5 68Z" stroke="#CBA349" stroke-width="2"/>
+<path d="M58.5 46C64.8513 46 70 40.8513 70 34.5C70 28.1487 64.8513 23 58.5 23C52.1487 23 47 28.1487 47 34.5C47 40.8513 52.1487 46 58.5 46Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M58.5 46C64.8513 46 70 40.8513 70 34.5C70 28.1487 64.8513 23 58.5 23C52.1487 23 47 28.1487 47 34.5C47 40.8513 52.1487 46 58.5 46Z" stroke="#CBA349" stroke-width="2"/>
+<path d="M59 1V23" stroke="#CBA349" stroke-width="2"/>
+<path d="M25 35H47" stroke="#CBA349" stroke-width="2"/>
+<path d="M59 46V68" stroke="#CBA349" stroke-width="2"/>
+<path d="M70 35H92" stroke="#CBA349" stroke-width="2"/>
+</svg>
