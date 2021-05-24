@@ -139,7 +139,7 @@ p {
     .page-wrap {
         overflow-x: hidden;
         height: 100vh;
-        background-image: url('/images/boulevard1Bg.jpg');
+        background-image: url('./images/boulevard1Bg.jpg');
         background-position: 50% 50%;
     }
 }
