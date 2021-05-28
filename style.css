@@ -35,7 +35,7 @@ html {
 #preloader span {
     position: absolute;
     border: 8px solid #ffe066;
-    background-image: url('/images/logo.png');
+    background-image: url('/images/new_logo.png');
     border-top: 8px solid transparent;
     border-radius: 999px;
 }
@@ -139,8 +139,10 @@ p {
     .page-wrap {
         overflow-x: hidden;
         height: 100vh;
-        background-image: url('/images/boulevard1Bg.jpg');
+        width: 100%;
+        background-image: url('/images/new_base.jpg');
         background-position: 50% 50%;
+        background-size: cover;
     }
 }
 
@@ -197,7 +199,7 @@ p {
 
 .boulevard_p {
     margin: auto;
-    display: initial;
+    text-align: center;
     font-size: 14px;
     font-family: sans-serif;
     padding: 5px;
@@ -276,7 +278,7 @@ nav .menu li a:active {
     display: block;
     overflow: hidden;
     text-indent: 100%;
-    background: #051d5b;
+    background: #fff;
     border-radius: 2px;
     white-space: nowrap;
     transition: background 0.3s ease-in-out;
@@ -288,7 +290,7 @@ nav .menu li a:active {
     content: "";
     width: 22px;
     height: 4px;
-    background: #051d5b;
+    background: #fff;
     border-radius: 2px;
     position: absolute;
     transform-origin: center center;
