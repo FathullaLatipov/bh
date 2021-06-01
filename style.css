@@ -141,8 +141,6 @@ p {
         height: 100vh;
         width: 100%;
         background-image: url('/images/new_base.jpg');
-        background-position: 50% 50%;
-        background-size: cover;
     }
     .logo {
         width: 220px;
