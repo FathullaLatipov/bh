@@ -140,7 +140,7 @@ p {
         overflow-x: hidden;
         height: 100vh;
         width: 100%;
-        background-image: url('/images/new_base.jpg');
+        background-image: url('./images/new_base.jpg');
     }
     .logo {
         width: 220px;
