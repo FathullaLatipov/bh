@@ -1,8 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald|Josefin+Sans:300);
 html {
     box-sizing: border-box;
     font-size: 100%;
-    overflow: hidden;
 }
 
 *,
@@ -35,7 +33,7 @@ html {
 #preloader span {
     position: absolute;
     border: 8px solid #ffe066;
-    background-image: url('/images/new_logo.png');
+    background-image: url('./images/new_logo.png');
     border-top: 8px solid transparent;
     border-radius: 999px;
 }
@@ -129,20 +127,100 @@ p {
     margin: 0 auto 30px;
 }
 
+.about_page {
+    /* Set a specific height */
+    min-height: 850px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./images/footer1.png')
+}
+
+.about1 {
+    width: 100%;
+    margin-left: 23%;
+    box-shadow: 12px 13px 4px #888;
+    border-radius: 10px;
+}
+
+.about2 {
+    width: 104%;
+    box-shadow: 12px 13px 4px #888;
+    border-radius: 10px;
+}
+
 @media screen and (max-width:1024px) {
     html {
         font-size: 92.5%;
     }
 }
 
-@media screen and (min-width:800px) {
+@media (min-width:901px) {
     .page-wrap {
         overflow-x: hidden;
         height: 100vh;
         width: 100%;
-        background-image: url('/images/new_base.jpg');
+        background-size: cover;
+        background-image: url('./images/new_base.jpg');
+    }
+    .logo {
+        width: 220px;
+        margin: 2%;
+        padding: 3%;
+    }
+    .info1 {
+        margin: 0;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+    .footer_about {
+        background-image: url(./images/footer1.png);
+        width: 100%;
+        height: 50vh;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        min-height: 450px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (min-width:200px) and (max-width:870px) {
+    .page-wrap {
+        overflow-x: hidden;
+        height: 100vh;
+        width: 100%;
+        background-image: url('/images/boulevardBG-mobi.jpg');
         background-position: 50% 50%;
         background-size: cover;
+    }
+    .phone2 {
+        width: 200px;
+    }
+    .info1 {
+        margin: 0;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+    .myphone2 {
+        width: 900px;
+    }
+    .footer_about {
+        background-image: url(./images/footer1.png);
+        width: 100%;
+        height: 20vh;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
     }
 }
 
@@ -153,8 +231,8 @@ p {
     p {
         font-size: 1.1rem;
     }
-    .page-wrap {
-        background-image: url('./images/boulevardBG-mobi.jpg');
+    .logo {
+        width: 400px;
     }
 }
 
@@ -168,7 +246,7 @@ p {
     margin: 5vh auto;
     width: 280px;
     height: 60px;
-    padding-top: 1.2%;
+    padding: 14px;
     font-size: 20px;
     background-color: #051d5b;
     color: #fff;
@@ -200,10 +278,10 @@ p {
 .boulevard_p {
     margin: auto;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     font-family: sans-serif;
-    padding: 5px;
-    text-shadow: 0px 3px 5px rgba(255, 255, 255, 0.5);
+    padding: 8px;
+    text-shadow: 0px 3px 5px rgb(255 255 255 / 50%);
     color: #fff;
 }
 
@@ -222,8 +300,10 @@ nav .menu {
     top: 0;
     left: 0;
     margin: 0;
+    margin-top: -9%;
     z-index: 1;
-    width: 100%;
+    margin-left: 1.5%;
+    width: 98%;
     background: #051d5b;
     padding: 3em 0 2em;
     position: absolute;
@@ -278,7 +358,7 @@ nav .menu li a:active {
     display: block;
     overflow: hidden;
     text-indent: 100%;
-    background: #fff;
+    background: #051d5b;
     border-radius: 2px;
     white-space: nowrap;
     transition: background 0.3s ease-in-out;
@@ -290,7 +370,7 @@ nav .menu li a:active {
     content: "";
     width: 22px;
     height: 4px;
-    background: #fff;
+    background: #051d5b;
     border-radius: 2px;
     position: absolute;
     transform-origin: center center;
